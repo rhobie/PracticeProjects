@@ -104,7 +104,7 @@ Data Structures
 Text
 ---------
 
-[**Fizz Bang**](/C%23/Text/FizzBang/FizzBang/Program.cs) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Bang”. For numbers which are multiples of both three and five print “FizzBang”.
+[**Fizz Buzz**](/C%23/Text/FizzBuzz/FizzBuzz/Program.cs) - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 [**Reverse a String**](/C%23/Text/ReverseString/ReverseString/Program.cs) - Enter a string and the program will reverse it and print it out.
 
