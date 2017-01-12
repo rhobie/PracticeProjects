@@ -1,10 +1,7 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FizzBang
+namespace FizzBuzz
 {
     internal class Program
     {
@@ -12,24 +9,24 @@ namespace FizzBang
         //instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
         private static void Main(string[] args)
         {
-            NewFizzBang();
+            NewFizzBuzz();
 
             Console.ReadLine();
         }
 
-        public static void NewFizzBang()
+        public static void NewFizzBuzz()
         {
             int num = 100;
 
-            for (int i = 1; i < num +1; i++)
+            for (int i = 1; i < num + 1; i++)
             {
-                if (i % 5 == 0 && i % 3 ==0)
+                if (i % 5 == 0 && i % 3 == 0)
                 {
-                    Console.WriteLine("FizzBang");
+                    Console.WriteLine("FizzBuzz");
                 }
                 else if (i % 5 == 0)
                 {
-                    Console.WriteLine("Bang");
+                    Console.WriteLine("Buzz");
                 }
                 else if (i % 3 == 0)
                 {
@@ -43,9 +40,9 @@ namespace FizzBang
         }
 
 
-        //MY OLD VERSION OF FIZZBANG (bad):
+        //MY OLD VERSION OF FIZZBUZZ (bad):
         //Completed Jul 2015
-        public static void OldFizzBang()
+        public static void OldFizzBuzz()
         {
             int[] arrThrees = new int[33];
             int[] arrFives = new int[20];
@@ -72,7 +69,7 @@ namespace FizzBang
             {
                 if (arrThrees.Contains(i) && arrFives.Contains(i))
                 {
-                    print = "FizzBang";
+                    print = "FizzBuzz";
                 }
                 else if (arrThrees.Contains(i))
                 {
@@ -80,7 +77,7 @@ namespace FizzBang
                 }
                 else if (arrFives.Contains(i))
                 {
-                    print = "Bang";
+                    print = "Buzz";
                 }
                 else
                 {
@@ -92,4 +89,3 @@ namespace FizzBang
         }
     }
 }
-
